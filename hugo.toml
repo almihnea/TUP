@@ -1,0 +1,95 @@
+baseURL = "https://theupdatepath.com"
+title = "theupdatepath"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+paginate = 20
+enableEmoji = true
+# Enable Disqus comments
+# disqusShortname = "yourdiscussshortname"
+
+[markup.highlight]
+noClasses = false
+
+[params]
+favicon_32 = "/favicon-32x32.png"
+author = "mihnea@theupdatepath"
+commit = "https://github.com/almihnea/TUP/tree/master"
+license = '<a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC-4.0</a>'
+description = "Mihnea's personal website"
+keywords = "blog,linux,proxmox,networking,bsd,3d printing,podman,docker,rhel,personal"
+info = ["Linux Networking and Virtualisation", "Server Hardware, Podman", "3D Printing & Selfhosting"]
+avatarURL = "/avatar.webp"
+dateFormat = "2 January, 2006"
+since = 2023
+# Right To Left, shift content direction for languagues such as Arabic
+rtl = false
+colorScheme = "auto"
+# Hide the toggle button, along with the associated vertical divider
+hideColorSchemeToggle = false
+# Series see also post count
+maxSeeAlsoItems = 5
+# Custom CSS
+customCSS = []
+# Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
+customSCSS = []
+# Custom JS
+customJS = []
+
+# Custom remote JS files
+customRemoteJS = []
+
+
+
+# If you want to use Cloudflare Web Analytics(https://cloudflare.com) for analytics, add this section
+# [params.cloudflare]
+# token = "token"
+
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-2x fa-github"
+weight = 1
+url = "https://github.com/almihnea/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-2x fa-linkedin"
+weight = 4
+url = "https://www.linkedin.com/in/almihnea/"
+
+[[params.social]]
+name = "Mastodon"
+icon = "fa fa-2x fa-mastodon"
+weight = 5
+url = "https://mastodon.social/@theupdatepath"
+
+
+[languages.en]
+languageName = ":us:"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
+
+[[languages.en.menu.main]]
+name = "Contact me"
+weight = 5
+url = "contact/"

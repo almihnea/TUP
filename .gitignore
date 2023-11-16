@@ -1,0 +1,11 @@
+public/
+.obsidian/
+.DS_Store
+test1
+
+themes/hugo-coder/.idea
+themes/hugo-coder/**/themes/
+themes/hugo-coder/exampleSite/public/
+themes/hugo-coder/exampleSite/resources/
+themes/hugo-coder/*.lock
+themes/hugo-coder/public
